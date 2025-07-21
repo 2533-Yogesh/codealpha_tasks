@@ -43,9 +43,10 @@ def play_hangman():
             break
     else:
         print(" You've run out of tries. The word will be a mystery for you...FOREVER")
+        print("\n Kidding, word was.....", word_to_guess)
 
     print("Game Over!")
-    print("\n Kidding, word was.....", word_to_guess)
+    
 
 # Replay Loop
 while True:
